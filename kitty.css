@@ -1,0 +1,49 @@
+
+.pics {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 820px;
+    width: 100%;
+}
+
+#first_kit {
+    background-image: url("images/kit1.jpg");
+    position: absolute;
+    right: 0px;
+}
+#second_kit {
+    background-image: url("images/kit2.jpg");
+    position: absolute;
+    right: -1440px;
+    bottom: 0px;
+}
+#third_kit {
+    background-image: url("images/kit3.jpg");
+    right: -1440px;
+    bottom: 100px;
+}
+#fourth_kit {
+    background-image: url("images/kit4.jpg");
+    right: -1420px;
+    bottom: 100px;
+
+}
+
+
+
+.go-left {
+transition-property: transform;
+transition-duration: 5s;
+transform: translateX(-800px);
+}
+.go-to-middle {
+    transition-property: transform;
+    transition-duration: 5s;
+    transform: translateX(0px);
+}
+.go-all-way-right {
+    transition-property: transform;
+    transition-duration: 5s;
+    transform: translateX(1450px);
+}
