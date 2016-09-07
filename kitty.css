@@ -12,6 +12,8 @@
     position: absolute;
     right: 0px;
 }
+
+
 #second_kit {
     background-image: url("images/kit2.jpg");
     position: absolute;
@@ -19,31 +21,79 @@
     bottom: 0px;
 }
 #third_kit {
+    position: absolute;
     background-image: url("images/kit3.jpg");
     right: -1440px;
-    bottom: 100px;
+    bottom: 0px;
+
 }
 #fourth_kit {
+    position: absolute;
     background-image: url("images/kit4.jpg");
-    right: -1420px;
-    bottom: 100px;
+    right: -1440px;
+    bottom: 0px;
 
 }
 
 
-
-.go-left {
-transition-property: transform;
-transition-duration: 5s;
-transform: translateX(-800px);
-}
-.go-to-middle {
+.middle-to-left {
     transition-property: transform;
-    transition-duration: 5s;
-    transform: translateX(0px);
+    transition-duration: 2s;
+    transform: translateX(-100%);
 }
-.go-all-way-right {
+.right-to-middle {
     transition-property: transform;
-    transition-duration: 5s;
-    transform: translateX(1450px);
+    transition-duration: 2s;
+    transform: translateX(-100%);
+
+}
+
+.dots {
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    display: inline;
+    bottom: 50px;
+    left: 32%;
+}
+
+#dot1 {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 6px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#dot2 {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+#dot3 {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+#dot4 {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 6px solid white;
+    border-radius: 50%;
 }
