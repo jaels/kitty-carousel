@@ -11,6 +11,7 @@
     background-image: url("images/kit1.jpg");
     position: absolute;
     right: 0px;
+
 }
 
 
@@ -96,4 +97,8 @@
     width: 40px;
     border: 6px solid white;
     border-radius: 50%;
+}
+
+.middle {
+    right: 0px;
 }
