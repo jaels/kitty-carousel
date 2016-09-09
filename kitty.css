@@ -1,3 +1,4 @@
+**TRIAL***
 
 .pics {
     background-position: center center;
@@ -18,20 +19,24 @@
 #second_kit {
     background-image: url("images/kit2.jpg");
     position: absolute;
-    right: -1440px;
+    /*right: -1440px;*/
+    right: -100%;
     bottom: 0px;
 }
 #third_kit {
     position: absolute;
     background-image: url("images/kit3.jpg");
-    right: -1440px;
+    /*right: -1440px;*/
+    right: -100%;
     bottom: 0px;
 
 }
 #fourth_kit {
     position: absolute;
     background-image: url("images/kit4.jpg");
-    right: -1440px;
+    /*right: -1440px;*/
+    right: -100%;
+
     bottom: 0px;
 
 }
@@ -97,8 +102,4 @@
     width: 40px;
     border: 6px solid white;
     border-radius: 50%;
-}
-
-.middle {
-    right: 0px;
 }

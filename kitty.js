@@ -1,3 +1,4 @@
+**TRIAL**
 
 (function() {
     var firstTimeout;
@@ -36,9 +37,9 @@
 
         pic1.style.right = "0px";
 
-        pic2.style.right = "-1440px";
-        pic3.style.right = "-1440px";
-        pic4.style.right = "-1440px";
+        pic2.style.right = "-100%";
+        pic3.style.right = "-100%";
+        pic4.style.right = "-100%";
 
         dot1.style.backgroundColor = "white";
         dot2.style.backgroundColor = "transparent";
@@ -66,9 +67,9 @@
 
         pic2.style.right = "0px";
 
-        pic1.style.right = "-1440px";
-        pic3.style.right = "-1440px";
-        pic4.style.right = "-1440px";
+        pic1.style.right = "-100%";
+        pic3.style.right = "-100%";
+        pic4.style.right = "-100%";
 
         dot2.style.backgroundColor = "white";
         dot1.style.backgroundColor = "transparent";
@@ -98,9 +99,9 @@
 
         pic3.style.right = "0px";
 
-        pic1.style.right = "-1440px";
-        pic2.style.right = "-1440px";
-        pic4.style.right = "-1440px";
+        pic1.style.right = "-100%";
+        pic2.style.right = "-100%";
+        pic4.style.right = "-100%";
 
         dot3.style.backgroundColor = "white";
         dot1.style.backgroundColor = "transparent";
@@ -128,9 +129,9 @@
 
         pic4.style.right = "0px";
 
-        pic1.style.right = "-1440px";
-        pic3.style.right = "-1440px";
-        pic2.style.right = "-1440px";
+        pic1.style.right = "-100%";
+        pic3.style.right = "-100%";
+        pic2.style.right = "-100%";
 
         dot4.style.backgroundColor = "white";
         dot1.style.backgroundColor = "transparent";
@@ -153,17 +154,24 @@
         }
 
         firstTimeout = setTimeout (function () {
-            dots[next].style.backgroundColor = "white";
             images[current].classList.add("middle-to-left");
             images[next].classList.add("right-to-middle");
+            dots[next].style.backgroundColor = "white";
             dots[current].style.backgroundColor = "transparent";
-        }, 1500);
+        }, 2000);
         secondTimeout = setTimeout(function() {
             images[current].classList.remove("middle-to-left");
-            images[current].style.right = "-1440px";
+            images[current].style.right = "-100%";
             images[next].classList.remove("right-to-middle");
             images[next].style.right = "0px";
             general(current+1);
         }, 4800)
     }
 })();
+
+
+
+//for(var j=0;j<4;j++) {
+//    images[j].classList.remove("middle-to-left");
+//    images[j].classList.remove("right-to-middle");
+//}
